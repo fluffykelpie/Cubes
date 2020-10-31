@@ -18,10 +18,12 @@ body {
 @keyframes anime {
   from {
     filter: hue-rotate(290deg);
+    transform: scale(1);
     opacity: 1;
   }
   to {
-    filter: hue-rotate(180deg);
+    filter: hue-rotate(0deg);
+    transform: scale(0.3);
     opacity: 0;
   }
 }
@@ -45,10 +47,131 @@ main {
   display: grid;
   grid-gap: 5px;
   grid-template: auto/repeat(5, 1fr);
+  grid-template-areas: "a b c d e" "f g h i j" "k l m n o" "p q r s t";
 }
 
 .cubes {
   background: #f395a5;
+}
+
+.cubes:nth-child(1) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(1 * 400ms);
+  grid-area: a;
+}
+
+.cubes:nth-child(2) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(2 * 400ms);
+  grid-area: b;
+}
+
+.cubes:nth-child(3) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(3 * 400ms);
+  grid-area: c;
+}
+
+.cubes:nth-child(4) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(4 * 400ms);
+  grid-area: d;
+}
+
+.cubes:nth-child(5) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(5 * 400ms);
+  grid-area: e;
+}
+
+.cubes:nth-child(6) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(6 * 400ms);
+  grid-area: f;
+}
+
+.cubes:nth-child(7) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(7 * 400ms);
+  grid-area: g;
+}
+
+.cubes:nth-child(8) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(8 * 400ms);
+  grid-area: h;
+}
+
+.cubes:nth-child(9) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(9 * 400ms);
+  grid-area: i;
+}
+
+.cubes:nth-child(10) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(10 * 400ms);
+  grid-area: j;
+}
+
+.cubes:nth-child(11) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(11 * 400ms);
+  grid-area: k;
+}
+
+.cubes:nth-child(12) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(12 * 400ms);
+  grid-area: l;
+}
+
+.cubes:nth-child(13) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(13 * 400ms);
+  grid-area: m;
+}
+
+.cubes:nth-child(14) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(14 * 400ms);
+  grid-area: n;
+}
+
+.cubes:nth-child(15) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(15 * 400ms);
+  grid-area: o;
+}
+
+.cubes:nth-child(16) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(16 * 400ms);
+  grid-area: p;
+}
+
+.cubes:nth-child(17) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(17 * 400ms);
+  grid-area: q;
+}
+
+.cubes:nth-child(18) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(18 * 400ms);
+  grid-area: r;
+}
+
+.cubes:nth-child(19) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(19 * 400ms);
+  grid-area: s;
+}
+
+.cubes:nth-child(20) {
+  animation: anime 3s ease-in-out;
+  animation-delay: calc(20 * 400ms);
+  grid-area: t;
 }
 
 /*# sourceMappingURL=style.css.map */

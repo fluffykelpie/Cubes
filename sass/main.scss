@@ -17,8 +17,133 @@ main{
     display: grid;
     grid-gap: 5px;
     grid-template: auto / repeat(5, 1fr);
+    grid-template-areas: 
+    "a b c d e"
+    "f g h i j"
+    "k l m n o"
+    "p q r s t";
 }
 
 .cubes {
     background: $cubes;
+}
+
+.cubes:nth-child(1){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(1 * #{$delay});
+    grid-area: a;
+}
+
+.cubes:nth-child(2){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(2 * #{$delay});
+    grid-area: b;
+}
+
+.cubes:nth-child(3){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(3 * #{$delay});
+    grid-area: c;
+}
+
+.cubes:nth-child(4){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(4 * #{$delay});
+    grid-area: d;
+}
+
+.cubes:nth-child(5){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(5 * #{$delay});
+    grid-area: e;
+}
+
+.cubes:nth-child(6){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(6 * #{$delay});
+    grid-area: f;
+}
+
+.cubes:nth-child(7){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(7 * #{$delay});
+    grid-area: g;
+}
+
+.cubes:nth-child(8){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(8 * #{$delay});
+    grid-area: h;
+}
+
+.cubes:nth-child(9){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(9 * #{$delay});
+    grid-area: i;
+}
+
+.cubes:nth-child(10){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(10 * #{$delay});
+    grid-area: j;
+}
+
+.cubes:nth-child(11){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(11 * #{$delay});
+    grid-area: k;
+}
+
+.cubes:nth-child(12){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(12 * #{$delay});
+    grid-area: l;
+}
+
+.cubes:nth-child(13){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(13 * #{$delay});
+    grid-area: m;
+}
+
+.cubes:nth-child(14){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(14 * #{$delay});
+    grid-area: n;
+}
+
+.cubes:nth-child(15){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(15 * #{$delay});
+    grid-area: o;
+}
+
+.cubes:nth-child(16){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(16 * #{$delay});
+    grid-area: p;
+}
+
+.cubes:nth-child(17){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(17 * #{$delay});
+    grid-area: q;
+}
+
+.cubes:nth-child(18){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(18 * #{$delay});
+    grid-area: r;
+}
+
+.cubes:nth-child(19){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(19 * #{$delay});
+    grid-area: s;
+}
+
+.cubes:nth-child(20){
+    animation: anime 3s ease-in-out;
+    animation-delay: calc(20 * #{$delay});
+    grid-area: t;
 }
