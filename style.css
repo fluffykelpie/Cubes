@@ -15,6 +15,16 @@ body {
   height: 100%;
 }
 
+@keyframes anime {
+  from {
+    filter: hue-rotate(290deg);
+    opacity: 1;
+  }
+  to {
+    filter: hue-rotate(180deg);
+    opacity: 0;
+  }
+}
 html {
   background: #d6d4d4;
 }
