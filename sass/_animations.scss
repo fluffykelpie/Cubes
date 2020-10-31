@@ -1,13 +1,13 @@
 @keyframes anime {
     from {
-        filter: hue-rotate(290deg);
-        transform: scale(1);
         opacity: 1;
+        filter: hue-rotate(290deg);
+        transform: scale(0.2);
     }
 
     to {
-        filter: hue-rotate(0deg);
-        transform: scale(0.3);
         opacity: 0;
+        filter: hue-rotate(0deg);
+        transform: scale(1);
     }
 }
